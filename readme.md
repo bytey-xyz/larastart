@@ -32,18 +32,18 @@ Edit "vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers
 Change
 
 `` 
-public function username()
-    {
-        return 'email';
-    }
+public function username()    
+    {    
+        return 'email';    
+    }    
 ``
 
    
-part to
+part to    
 
 ``
-public function username()
-    {
-        return 'username';
-    }
+public function username()    
+    {    
+        return 'username';    
+    }    
 ``
