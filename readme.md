@@ -25,3 +25,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Comment
+
+Edit "vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php"
+Change 
+public function username()
+    {
+        return 'email';
+    }
+part to
+public function username()
+    {
+        return 'username';
+    }
