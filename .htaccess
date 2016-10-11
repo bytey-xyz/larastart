@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ http://localhost/laravel/eloqtry/public/$1 [R=301,L]
